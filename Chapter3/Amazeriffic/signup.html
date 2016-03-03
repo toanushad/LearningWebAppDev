@@ -20,44 +20,53 @@
     </header>
 
     <main>
-      <h2>Sign Up form</h2>
-      <form>
-        <table>
-          <tr>
-            <td>Username</td>
-            <td><input type="text" name="userName"/></td>
-          </tr>
-          <tr>
-            <td>Email address</td>
-            <td><input type="text" name="userEmailID"/></td>
-          </tr>
-          <tr>
-            <td>Password</td>
-            <td><input type="password" name="userPassword"/></td>
-          </tr>         
-        </table>
-        <input type="submit" value="Submit"/>
-      </form>
+      <div class="container">
+        <h2>Sign Up form</h2>
+        <div class="left">
+          <form>
+            <label for="username">Username</label></br>
+            <input type="text" name="userName"/>
+            <br>
+            <label for="emailid">Email address</label></br>
+            <input type="text" name="userEmailID"/>          
+            <br>
+            <label for="password">Password</label></br>
+            <input type="password" name="userPassword"/>
+            <br>
+            <br>
+            <input type="submit" value="Submit"/>
+          </form>
+       </div>
+      </div>
     </main>
 
     <footer>
-      <div class="contact">
-        <h5>Contact Us</h5>
-        <p>Amazeriffic!</p>
-        <p>555 Fiftieth Street</p>
-        <p>Asheville, NC 28801</p>
-      </div>
-
-      <div class="sitemap">
-        <h5>Sitemap</h5>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
+      <div class="container">
+        <div class="left">
+          <div class="contact">
+            <h5>Contact Us</h5><br>
+            <p>Amazeriffic!</p>
+            <p>555 Fiftieth Street</p>
+            <p>Asheville, NC 28801</p>
+          </div>
+        </div>
+        <div class="sitemap">
+          <h5>Sitemap</h5><br>
+          <div class="col_1">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col_2">
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
