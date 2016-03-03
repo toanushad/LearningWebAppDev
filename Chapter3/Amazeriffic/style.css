@@ -68,7 +68,7 @@ main .right {
   float: right;
   width: auto;
 }
-class
+
 main .container{
   color:black;
 }
@@ -83,7 +83,7 @@ input[type=submit]{
 }
 
 input[type=text], input[type=password]{
-class  padding:5px 2px;
+  padding:5px 2px;
   margin:4px 4px;
   text-align:left;
   
@@ -91,11 +91,12 @@ class  padding:5px 2px;
 
 footer .left {
   float: left;
-  width: 470px;
+  width: 300px;
   padding:10px;
 }
 
 footer .sitemap {
+  float:right;
   width:470px;
  padding-top:15px;
   
